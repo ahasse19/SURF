@@ -225,7 +225,7 @@ def chan_kev():
     plt.plot(range(1400), yfit, label = 'Line of Best Fit')
     plt.ylim(-100, 17000)
     plt.title('Channel to Kev Count for Four Radioactive Sources')
-    plt.xlabel('KeV')
+    plt.xlabel('Known Particle Energy (KeV)')
     plt.ylabel('Channels (ADC)')
     plt.legend(loc = 2)
     
@@ -267,15 +267,15 @@ def radium():
     plt.plot(range(8000), yfit, label = 'Line of Best Fit')
     plt.xlim(4000, 8000)
     plt.errorbar(known, quench, yerr = error2, marker = 'o', linestyle = 'None', label = 'Quenching Factor')
-    plt.title('Quenching Factor at Various Energies for Ra 224 in BaF2')
+    plt.title('Quenching Factor at Various Energies for Ra 226 in BaF2')
     plt.xlabel('Energy in keV')
-    plt.ylabel('Quenching Factor')
+    plt.ylabel('Quenching Factor (Birks Constant)')
     plt.legend(loc = 1)
     for i, txt in enumerate(names):
         plt.annotate(txt, (known[i],quench[i]), ha = 'right')
         plt.show()
     plt.show()
-    return error2
+    return quench
     
     
 
@@ -296,13 +296,13 @@ hyp = [d, e, f, g, h]
 
 threepeaks = [40, 14000, 1000, 40, 17000, 1000, 40, 20000, 1000, 0, 0]
 
-x1 = energy(alldata('Cs13714.txt')[0], alldata('Cs13714.txt')[1], 9000, 6000)[0]
-y1 = energy(alldata('Cs13714.txt')[0], alldata('Cs13714.txt')[1], 9000, 6000)[1]  
+x1 = energy(alldata('Ra226XB202.txt')[0], alldata('Ra226XB202.txt')[1], 19000, 9000)[0]
+y1 = energy(alldata('Ra226XB202.txt')[0], alldata('Ra226XB202.txt')[1], 19000, 9000)[1]  
         
-fitted = optimize(gauss, hyp)
-rawdata(x1, y1, 'Cs 137', 'Energy', 'Counts', 'Collected Data (Observed)')
-linefitgauss(fitted, x1, 'Cs 137', 'Energy', 'Counts', 'Gaussian Fit to Data')
-print resolution(fitted)
+fitted = optimize(gaussRn, threepeaks)
+rawdata(x1, y1, 'Ra 226 First Three Peaks 2170 Volts XB2020 PMT', 'Energy in Channels', 'Counts', 'Collected Data (Observed)')
+#linefitgaussRn(fitted, x1, 'Ra 226', 'Energy in Channels', 'Counts', 'Gaussian Fit to Data')
+#print resolution(fitted)
 
 
 
