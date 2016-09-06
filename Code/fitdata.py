@@ -1,4 +1,4 @@
-# Test Data SURF CS137 Light Spectrum
+# SURF Calibration and Quenching Factor for BaF2 General Program. (This version currently uses the first UV data)
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -107,7 +107,8 @@ def gauss(guess):
 def optimize(f, guess):
     '''Takes a function and potential parameters and outputs the minimized 
     values for the guess'''
-    fit = minimize(f, guess, method= 'Nelder-Mead', bounds = ((0, None), (0, None), (0, None), (None, 0), (0, None)))
+    fit = minimize(f, guess, method= 'Nelder-Mead', bounds = ((0, None), (0, None), (0, None), (None, 0), (0, None), (0, None),\
+        (0, None), (0, None), (0, None), (None, None), (None, None)))
     return fit
    
      
@@ -199,10 +200,9 @@ def conversion(opt, y):
     plt.show()
 
 
-i = 11
-j = 50  
 
-guessregress = [i, j]
+
+guessregress = [11, 50]
     
 def line(x, i, j):
     ''' A linear function'''
@@ -286,23 +286,18 @@ c = -1600
 
 para = [a, b, c]
 
-d = 400
-e = 7000
-f = 2000
-g = 10
-h = -.0001
+hyp = [500, 14500, 1000, -.1, -.0001]
 
-hyp = [d, e, f, g, h]
+threepeaks = [500, 11000, 600, 140, 14000, 1000, 100, 15800, 1100, 0, 0]
 
-threepeaks = [40, 14000, 1000, 40, 17000, 1000, 40, 20000, 1000, 0, 0]
-
-x1 = energy(alldata('Ra226XB202.txt')[0], alldata('Ra226XB202.txt')[1], 19000, 9000)[0]
-y1 = energy(alldata('Ra226XB202.txt')[0], alldata('Ra226XB202.txt')[1], 19000, 9000)[1]  
+x1 = energy(alldata('RaSB2170.txt')[0], alldata('RaSB2170.txt')[1], 20000, 9000)[0]
+y1 = energy(alldata('RaSB2170.txt')[0], alldata('RaSB2170.txt')[1], 20000, 9000)[1]  
         
+rawdata(x1, y1, 'Ra 226 4800, 5500, and 6000 keV Peaks at 2170 Volts SB', 'Energy in Channels', 'Counts', 'Collected Data (Observed)')
 fitted = optimize(gaussRn, threepeaks)
-rawdata(x1, y1, 'Ra 226 First Three Peaks 2170 Volts XB2020 PMT', 'Energy in Channels', 'Counts', 'Collected Data (Observed)')
-#linefitgaussRn(fitted, x1, 'Ra 226', 'Energy in Channels', 'Counts', 'Gaussian Fit to Data')
-#print resolution(fitted)
+linefitgaussRn(fitted, x1, 'Ra 226 4800, 5500, and 6000 keV Peaks at 2170 Volts SB', 'Energy in Channels', 'Counts', 'Gaussian Fit to Data')
+print resolution(fitted)
+print fitted.x
 
 
 
