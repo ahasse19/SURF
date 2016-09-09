@@ -1,4 +1,6 @@
 # SURF Calibration and Quenching Factor for BaF2 General Program. (This version currently uses the first UV data)
+# All functions are made to be general (user input for agruments; not users altering code values), however it is structured for 
+# the ease of use for my SURF progject
 
 import numpy as np
 import matplotlib.pyplot as plt

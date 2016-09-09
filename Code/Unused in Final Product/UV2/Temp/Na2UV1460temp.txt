@@ -1,0 +1,12 @@
+2016-08-30 09:47:02
+AM2302 Humidity - Temperature Sensor
+Minute	Hour	Day	Temp1 (C)	Temp2 (C)	Humidity1 	 Humidity2 
+0	0	1	nan *C	18.60 *C	nan %		69.40 %	
+10	0	1	nan *C	18.60 *C	nan %		69.20 %	
+20	0	1	nan *C	19.40 *C	nan %		65.40 %	
+30	0	1	nan *C	18.90 *C	nan %		66.90 %	
+40	0	1	nan *C	18.90 *C	nan %		66.60 %	
+50	0	1	nan *C	18.80 *C	nan %		66.00 %	
+0	1	1	nan *C	18.80 *C	nan %		65.60 %	
+10	1	1	nan *C	18.80 *C	nan %		65.10 %	
+20	1	1	nan *C	18.80 *C	nan %		64.80 %	

@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     18728,        542]
-NotebookOptionsPosition[     17207,        490]
-NotebookOutlinePosition[     17592,        507]
-CellTagsIndexPosition[     17549,        504]
+NotebookDataLength[     18667,        525]
+NotebookOptionsPosition[     17286,        481]
+NotebookOutlinePosition[     17672,        498]
+CellTagsIndexPosition[     17629,        495]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -23,11 +23,14 @@ Ariel Hasse, Professor David Hitlin, SURF 2016
 This script optimizes the three PMT lines to find the point of best \
 intersection. Enter the x and y values from the linear
 regressions of each PMT printed at each energy. (Fourth = 7700, Third = 6000, \
-Second = 5500, First = 4800).\
+Second = 5500, First = 4800).
+This uses the vector method found here \
+http://math.stackexchange.com/questions/61719/finding-the-intersection-point-\
+of-many-lines-in-3d-point-closest-to-all-lines. \
 \>", "Text",
  CellChangeTimes->{{3.682207719583962*^9, 3.682207790371046*^9}, {
   3.6822088446351233`*^9, 3.68220891108025*^9}, {3.682211325914434*^9, 
-  3.6822114033816423`*^9}}],
+  3.6822114033816423`*^9}, {3.682355658165422*^9, 3.682355665985358*^9}}],
 
 Cell[BoxData[
  RowBox[{
@@ -399,8 +402,6 @@ Cell[BoxData[
  CellChangeTimes->{{3.6822098724246473`*^9, 3.682209943934462*^9}, {
   3.682285536956802*^9, 3.682285547301898*^9}}],
 
-Cell[CellGroupData[{
-
 Cell[BoxData[
  RowBox[{"fourth", " ", "=", " ", 
   RowBox[{"{", 
@@ -418,10 +419,7 @@ Cell[BoxData[
     RowBox[{"x", "\[Rule]", "2.198405384259986`"}], ",", 
     RowBox[{"y", "\[Rule]", "5.724055237378132`"}]}], "}"}], "}"}]], "Output",\
 
- CellChangeTimes->{3.6822861055353947`*^9}]
-}, Open  ]],
-
-Cell[CellGroupData[{
+ CellChangeTimes->{3.6822861055353947`*^9}],
 
 Cell[BoxData[
  RowBox[{"third", " ", "=", " ", 
@@ -440,10 +438,7 @@ Cell[BoxData[
     RowBox[{"x", "\[Rule]", "2.446126687355148`"}], ",", 
     RowBox[{"y", "\[Rule]", "6.082740254775446`"}]}], "}"}], "}"}]], "Output",\
 
- CellChangeTimes->{3.68228599409941*^9}]
-}, Open  ]],
-
-Cell[CellGroupData[{
+ CellChangeTimes->{3.68228599409941*^9}],
 
 Cell[BoxData[
  RowBox[{"second", " ", "=", " ", 
@@ -462,10 +457,7 @@ Cell[BoxData[
     RowBox[{"x", "\[Rule]", "2.559127413917225`"}], ",", 
     RowBox[{"y", "\[Rule]", "6.555134883626673`"}]}], "}"}], "}"}]], "Output",\
 
- CellChangeTimes->{3.6822858662515306`*^9}]
-}, Open  ]],
-
-Cell[CellGroupData[{
+ CellChangeTimes->{3.6822858662515306`*^9}],
 
 Cell[BoxData[
  RowBox[{"first", " ", "=", " ", 
@@ -486,10 +478,9 @@ Cell[BoxData[
     RowBox[{"y", "\[Rule]", "7.153692823626004`"}]}], "}"}], "}"}]], "Output",\
 
  CellChangeTimes->{3.68228556252337*^9, 3.682285742349003*^9}]
-}, Open  ]]
 },
-WindowSize->{1569, 943},
-WindowMargins->{{1394, Automatic}, {Automatic, 0}},
+WindowSize->{1309, 941},
+WindowMargins->{{Automatic, -1303}, {Automatic, 0}},
 Magnification:>1.5 Inherited,
 FrontEndVersion->"10.2 for Mac OS X x86 (32-bit, 64-bit Kernel) (July 6, \
 2015)",
@@ -506,44 +497,36 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 472, 9, 105, "Text"],
-Cell[1033, 31, 1623, 40, 394, InheritFromParent],
+Cell[558, 20, 687, 12, 164, "Text"],
+Cell[1248, 34, 1623, 40, 394, "Input"],
 Cell[CellGroupData[{
-Cell[2681, 75, 2050, 50, 344, "Input"],
-Cell[4734, 127, 380, 7, 43, "Output"],
-Cell[5117, 136, 379, 7, 43, "Output"],
-Cell[5499, 145, 385, 7, 43, "Output"],
-Cell[5887, 154, 380, 7, 43, "Output"],
-Cell[6270, 163, 380, 7, 43, "Output"],
-Cell[6653, 172, 381, 7, 43, "Output"],
-Cell[7037, 181, 363, 6, 43, "Output"],
-Cell[7403, 189, 380, 7, 43, "Output"],
-Cell[7786, 198, 384, 7, 43, "Output"],
-Cell[8173, 207, 348, 6, 43, "Output"]
+Cell[2896, 78, 2050, 50, 344, "Input"],
+Cell[4949, 130, 380, 7, 43, "Output"],
+Cell[5332, 139, 379, 7, 43, "Output"],
+Cell[5714, 148, 385, 7, 43, "Output"],
+Cell[6102, 157, 380, 7, 43, "Output"],
+Cell[6485, 166, 380, 7, 43, "Output"],
+Cell[6868, 175, 381, 7, 43, "Output"],
+Cell[7252, 184, 363, 6, 43, "Output"],
+Cell[7618, 192, 380, 7, 43, "Output"],
+Cell[8001, 201, 384, 7, 43, "Output"],
+Cell[8388, 210, 348, 6, 43, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[8558, 218, 2189, 62, 164, "Input"],
-Cell[10750, 282, 1226, 33, 43, "Output"],
-Cell[11979, 317, 1219, 33, 43, "Output"],
-Cell[13201, 352, 1234, 36, 43, "Output"]
+Cell[8773, 221, 2189, 62, 164, "Input"],
+Cell[10965, 285, 1226, 33, 64, "Output"],
+Cell[12194, 320, 1219, 33, 64, "Output"],
+Cell[13416, 355, 1234, 36, 64, "Output"]
 }, Open  ]],
-Cell[14450, 391, 363, 8, 43, "Input"],
-Cell[CellGroupData[{
-Cell[14838, 403, 302, 8, 43, InheritFromParent],
-Cell[15143, 413, 239, 7, 101, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[15419, 425, 303, 8, 43, InheritFromParent],
-Cell[15725, 435, 236, 7, 43, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[15998, 447, 302, 8, 43, InheritFromParent],
-Cell[16303, 457, 239, 7, 43, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[16579, 469, 350, 9, 43, InheritFromParent],
-Cell[16932, 480, 259, 7, 43, "Output"]
-}, Open  ]]
+Cell[14665, 394, 363, 8, 64, "Input"],
+Cell[15031, 404, 302, 8, 64, InheritFromParent],
+Cell[15336, 414, 239, 7, 151, "Output"],
+Cell[15578, 423, 303, 8, 64, InheritFromParent],
+Cell[15884, 433, 236, 7, 64, "Output"],
+Cell[16123, 442, 302, 8, 64, InheritFromParent],
+Cell[16428, 452, 239, 7, 64, "Output"],
+Cell[16670, 461, 350, 9, 64, InheritFromParent],
+Cell[17023, 472, 259, 7, 64, "Output"]
 }
 ]
 *)
