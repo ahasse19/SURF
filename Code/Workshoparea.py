@@ -25,3 +25,15 @@ from scipy import interp
 5500err = {1.31089, 0.0310162}
 6000err = {1.2333, 0.0319127}
 7700err = {1.10977, 0.0313639}
+
+'''\setlength{\parskip}{2em}
+\noindent
+\section{Bibliography}
+
+\noindent
+Birks, J.B. (1964). The Theory and Practice of Scintillation Counting. London:
+Pergamon.
+
+\noindent
+Polischuk, O., Belli, P., Bernabei, R., Capella, F., Caracciolo, V., Cerulli, R., . . . Tretyak, V. (2009). Radioactive contamination of BaF2 crystal scintillator. Nuclear Institute.
+'''
