@@ -1,0 +1,642 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  20 SEP 2016 16:21
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**finalreport.tex
+(./finalreport.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen105
+\WF@size=\dimen106
+\c@WF@wrappedlines=\count88
+\WF@box=\box26
+\WF@everypar=\toks15
+Package: wrapfig 2003/01/31  v 3.6
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/lipsum/lipsum.sty
+Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count89
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen107
+\captionmargin@=\dimen108
+\captionwidth=\dimen109
+\caption@tempdima=\dimen110
+\caption@indent=\dimen111
+\caption@parindent=\dimen112
+\caption@hangindent=\dimen113
+)
+\c@ContinuedFloat=\count90
+Package caption Info: wrapfig package is loaded.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+\c@KVtest=\count91
+\sf@farskip=\skip43
+\sf@captopadj=\dimen114
+\sf@capskip=\skip44
+\sf@nearskip=\skip45
+\c@subfigure=\count92
+\c@subfigure@save=\count93
+\c@lofdepth=\count94
+\c@subtable=\count95
+\c@subtable@save=\count96
+\c@lotdepth=\count97
+\sf@top=\skip46
+\sf@bottom=\skip47
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count98
+\float@exts=\toks16
+\float@box=\box27
+\@float@everytoks=\toks17
+\@floatcapt=\box28
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip48
+\f@ncyO@elh=\skip49
+\f@ncyO@erh=\skip50
+\f@ncyO@olh=\skip51
+\f@ncyO@orh=\skip52
+\f@ncyO@elf=\skip53
+\f@ncyO@erf=\skip54
+\f@ncyO@olf=\skip55
+\f@ncyO@orf=\skip56
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count99
+\Gm@cntv=\count100
+\c@Gm@tempcnt=\count101
+\Gm@bindingoffset=\dimen115
+\Gm@wd@mp=\dimen116
+\Gm@odd@mp=\dimen117
+\Gm@even@mp=\dimen118
+\Gm@layoutwidth=\dimen119
+\Gm@layoutheight=\dimen120
+\Gm@layouthoffset=\dimen121
+\Gm@layoutvoffset=\dimen122
+\Gm@dimlist=\toks18
+)
+(./finalreport.aux
+
+LaTeX Warning: Label `fig:workflowedge' multiply defined.
+
+
+LaTeX Warning: Label `fig:workflowedge' multiply defined.
+
+
+LaTeX Warning: Label `fig:workflowedge' multiply defined.
+
+
+LaTeX Warning: Label `fig:workflowedge' multiply defined.
+
+
+LaTeX Warning: Label `fig:workflowedge' multiply defined.
+
+
+LaTeX Warning: Label `fig:workflowedge' multiply defined.
+
+
+LaTeX Warning: Label `fig:workflowedge' multiply defined.
+
+
+LaTeX Warning: Label `fig:workflowedge' multiply defined.
+
+
+LaTeX Warning: Label `fig:workflowedge' multiply defined.
+
+)
+\openout1 = `finalreport.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+ (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count102
+\scratchdimen=\dimen123
+\scratchbox=\box29
+\nofMPsegments=\count103
+\nofMParguments=\count104
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count105
+\MPscratchDim=\dimen124
+\MPnumerator=\count106
+\makeMPintoPDFobject=\count107
+\everyMPtoPDFconversion=\toks20
+) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(108.405pt, 397.485pt, 108.405pt)
+* v-part:(T,H,B)=(108.405pt, 578.15999pt, 108.405pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=397.485pt
+* \textheight=578.15999pt
+* \oddsidemargin=36.13501pt
+* \evensidemargin=36.13501pt
+* \topmargin=-0.86499pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+[1
+
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 32.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 32.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 32.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 32.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 32.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 32.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 32.
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+ [2]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 46.
+ [3]
+Overfull \hbox (8.40222pt too wide) in paragraph at lines 81--83
+$\OML/cmm/m/it/10 ^^[[] \OT1/cmr/m/n/10 = [1\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 3
+6287\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 31089
+\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 2333\OML/
+cmm/m/it/10 ; \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 10977]$ and $\
+OML/cmm/m/it/10 ^^[[] \OT1/cmr/m/n/10 = [0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 029
+0772\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 03101
+62\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0319127
+\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0313639]$
+. 
+ []
+
+<knownkev.png, id=22, 865.2325pt x 349.305pt>
+File: knownkev.png Graphic file (type png)
+ <use knownkev.png>
+Package pdftex.def Info: knownkev.png used on input line 97.
+(pdftex.def)             Requested size: 198.7425pt x 80.23186pt.
+ [4]
+<schem.png, id=27, 867.24pt x 527.9725pt>
+File: schem.png Graphic file (type png)
+ <use schem.png>
+Package pdftex.def Info: schem.png used on input line 106.
+(pdftex.def)             Requested size: 198.7425pt x 120.98802pt.
+ [5 <./knownkev.png> <./schem.png>] <na.png, id=34, 578.16pt x 433.62pt>
+File: na.png Graphic file (type png)
+ <use na.png>
+Package pdftex.def Info: na.png used on input line 126.
+(pdftex.def)             Requested size: 198.7425pt x 149.0565pt.
+ [6 <./na.png>]
+<FilCsfit.png, id=39, 578.16pt x 433.62pt>
+File: FilCsfit.png Graphic file (type png)
+ <use FilCsfit.png>
+Package pdftex.def Info: FilCsfit.png used on input line 157.
+(pdftex.def)             Requested size: 158.99156pt x 119.24255pt.
+
+<2UVRa1fit.png, id=40, 578.16pt x 433.62pt>
+File: 2UVRa1fit.png Graphic file (type png)
+ <use 2UVRa1fit.png>
+Package pdftex.def Info: 2UVRa1fit.png used on input line 162.
+(pdftex.def)             Requested size: 158.99156pt x 119.24255pt.
+
+<SBNa1fit.png, id=41, 578.16pt x 433.62pt>
+File: SBNa1fit.png Graphic file (type png)
+ <use SBNa1fit.png>
+Package pdftex.def Info: SBNa1fit.png used on input line 169.
+(pdftex.def)             Requested size: 198.7425pt x 149.0565pt.
+
+<gaussfits.png, id=42, 744.7825pt x 451.6875pt>
+File: gaussfits.png Graphic file (type png)
+ <use gaussfits.png>
+Package pdftex.def Info: gaussfits.png used on input line 177.
+(pdftex.def)             Requested size: 198.7425pt x 120.53056pt.
+
+<chanf.png, id=43, 413.545pt x 282.05376pt>
+File: chanf.png Graphic file (type png)
+ <use chanf.png>
+Package pdftex.def Info: chanf.png used on input line 188.
+(pdftex.def)             Requested size: 158.99156pt x 108.43823pt.
+
+<chanuv.png, id=44, 413.545pt x 282.05376pt>
+File: chanuv.png Graphic file (type png)
+ <use chanuv.png>
+Package pdftex.def Info: chanuv.png used on input line 193.
+(pdftex.def)             Requested size: 158.99156pt x 108.43823pt.
+ [7 <./FilCsfit.png> <./2UVRa1fit.png>] [8 <./SBNa1fit.png> <./gaussfits.png>]
+<chansb.png, id=56, 413.545pt x 282.05376pt>
+File: chansb.png Graphic file (type png)
+ <use chansb.png>
+Package pdftex.def Info: chansb.png used on input line 200.
+(pdftex.def)             Requested size: 198.7425pt x 135.55211pt.
+
+Overfull \hbox (32.32054pt too wide) in paragraph at lines 209--215
+\OT1/cmr/m/n/10 Quenching Fac-tor UV with fil-ter = [2.9762807168446512, 2.8493
+222446691253, 2.7046015279015254,
+ []
+
+
+Overfull \hbox (70.62627pt too wide) in paragraph at lines 209--215
+\OT1/cmr/m/n/10 2.459904200468519] Quench-ing Fac-tor UV = [3.269623267619078, 
+3.1364744649952887, 2.9771822748456365,
+ []
+
+
+Overfull \hbox (2.0994pt too wide) in paragraph at lines 209--215
+\OT1/cmr/m/n/10 2.702319438114875] Quench-ing Fac-tor So-lar-blind = [5.1559911
+31280197, 4.789453699584773,
+ []
+
+<FitsBaF2.png, id=57, 578.16pt x 433.62pt>
+File: FitsBaF2.png Graphic file (type png)
+ <use FitsBaF2.png>
+Package pdftex.def Info: FitsBaF2.png used on input line 218.
+(pdftex.def)             Requested size: 198.7425pt x 149.0565pt.
+
+<qff.png, id=58, 397.485pt x 282.05376pt>
+File: qff.png Graphic file (type png)
+ <use qff.png>
+Package pdftex.def Info: qff.png used on input line 226.
+(pdftex.def)             Requested size: 158.99156pt x 112.82379pt.
+
+<qfuv.png, id=59, 397.485pt x 282.05376pt>
+File: qfuv.png Graphic file (type png)
+ <use qfuv.png>
+Package pdftex.def Info: qfuv.png used on input line 231.
+(pdftex.def)             Requested size: 158.99156pt x 112.82379pt.
+
+<qfsb.png, id=60, 397.485pt x 282.05376pt>
+File: qfsb.png Graphic file (type png)
+ <use qfsb.png>
+Package pdftex.def Info: qfsb.png used on input line 239.
+(pdftex.def)             Requested size: 158.99156pt x 112.82379pt.
+ [9 <./chansb.png> <./chanf.png> <./chanuv.png> <./qff.png> <./qfuv.png>]
+<convf.png, id=69, 401.5pt x 282.05376pt>
+File: convf.png Graphic file (type png)
+ <use convf.png>
+Package pdftex.def Info: convf.png used on input line 260.
+(pdftex.def)             Requested size: 158.99156pt x 111.6919pt.
+
+<convuv.png, id=70, 401.5pt x 282.05376pt>
+File: convuv.png Graphic file (type png)
+ <use convuv.png>
+Package pdftex.def Info: convuv.png used on input line 265.
+(pdftex.def)             Requested size: 158.99156pt x 111.6919pt.
+ [10 <./FitsBaF2.png> <./qfsb.png>] <convsb.png, id=76, 401.5pt x 282.05376pt>
+File: convsb.png Graphic file (type png)
+ <use convsb.png>
+Package pdftex.def Info: convsb.png used on input line 272.
+(pdftex.def)             Requested size: 198.7425pt x 139.61919pt.
+
+<first.png, id=77, 398.48875pt x 282.05376pt>
+File: first.png Graphic file (type png)
+ <use first.png>
+Package pdftex.def Info: first.png used on input line 302.
+(pdftex.def)             Requested size: 158.99156pt x 112.53545pt.
+
+<second.png, id=78, 398.48875pt x 282.05376pt>
+File: second.png Graphic file (type png)
+ <use second.png>
+Package pdftex.def Info: second.png used on input line 307.
+(pdftex.def)             Requested size: 158.99156pt x 112.53545pt.
+ [11 <./convsb.png> <./convf.png> <./convuv.png>]
+<third.png, id=85, 398.48875pt x 282.05376pt>
+File: third.png Graphic file (type png)
+ <use third.png>
+Package pdftex.def Info: third.png used on input line 315.
+(pdftex.def)             Requested size: 158.99156pt x 112.53545pt.
+
+<fourth.png, id=86, 398.48875pt x 282.05376pt>
+File: fourth.png Graphic file (type png)
+ <use fourth.png>
+Package pdftex.def Info: fourth.png used on input line 320.
+(pdftex.def)             Requested size: 158.99156pt x 112.53545pt.
+
+<qf.png, id=87, 388.45125pt x 297.11pt>
+File: qf.png Graphic file (type png)
+ <use qf.png>
+Package pdftex.def Info: qf.png used on input line 327.
+(pdftex.def)             Requested size: 198.7425pt x 152.0137pt.
+ [12 <./qf.png> <./first.png> <./second.png> <./third.png> <./fourth.png>] [13]
+
+<2UVAmBefit.png, id=100, 578.16pt x 433.62pt>
+File: 2UVAmBefit.png Graphic file (type png)
+ <use 2UVAmBefit.png>
+Package pdftex.def Info: 2UVAmBefit.png used on input line 396.
+(pdftex.def)             Requested size: 158.99156pt x 119.24255pt.
+
+<2UVCsfit.png, id=101, 578.16pt x 433.62pt>
+File: 2UVCsfit.png Graphic file (type png)
+ <use 2UVCsfit.png>
+Package pdftex.def Info: 2UVCsfit.png used on input line 401.
+(pdftex.def)             Requested size: 158.99156pt x 119.24255pt.
+ [14]
+<2UVCo1fit.png, id=105, 578.16pt x 433.62pt>
+File: 2UVCo1fit.png Graphic file (type png)
+ <use 2UVCo1fit.png>
+Package pdftex.def Info: 2UVCo1fit.png used on input line 409.
+(pdftex.def)             Requested size: 158.99156pt x 119.24255pt.
+
+<2UVCo2fit.png, id=106, 578.16pt x 433.62pt>
+File: 2UVCo2fit.png Graphic file (type png)
+ <use 2UVCo2fit.png>
+Package pdftex.def Info: 2UVCo2fit.png used on input line 414.
+(pdftex.def)             Requested size: 158.99156pt x 119.24255pt.
+
+<2UVNa1fit.png, id=107, 578.16pt x 433.62pt>
+File: 2UVNa1fit.png Graphic file (type png)
+ <use 2UVNa1fit.png>
+Package pdftex.def Info: 2UVNa1fit.png used on input line 422.
+(pdftex.def)             Requested size: 158.99156pt x 119.24255pt.
+
+<2UVNa2fit.png, id=108, 578.16pt x 433.62pt>
+File: 2UVNa2fit.png Graphic file (type png)
+ <use 2UVNa2fit.png>
+Package pdftex.def Info: 2UVNa2fit.png used on input line 427.
+(pdftex.def)             Requested size: 158.99156pt x 119.24255pt.
+File: 2UVRa1fit.png Graphic file (type png)
+
+<use 2UVRa1fit.png>
+Package pdftex.def Info: 2UVRa1fit.png used on input line 435.
+(pdftex.def)             Requested size: 158.99156pt x 119.24255pt.
+ <2UVRa4fit.png, id=109, 578.16pt x 433.62pt>
+File: 2UVRa4fit.png Graphic file (type png)
+
+<use 2UVRa4fit.png>
+Package pdftex.def Info: 2UVRa4fit.png used on input line 440.
+(pdftex.def)             Requested size: 158.99156pt x 119.24255pt.
+ [15 <./2UVAmBefit.png> <./2UVCsfit.png> <./2UVCo1fit.png> <./2UVCo2fit.png> <.
+/2UVNa1fit.png> <./2UVNa2fit.png>]
+<FilCo1fit.png, id=119, 578.16pt x 433.62pt>
+File: FilCo1fit.png Graphic file (type png)
+ <use FilCo1fit.png>
+Package pdftex.def Info: FilCo1fit.png used on input line 463.
+(pdftex.def)             Requested size: 158.99156pt x 119.24255pt.
+
+<FilCo2fit.png, id=120, 578.16pt x 433.62pt>
+File: FilCo2fit.png Graphic file (type png)
+ <use FilCo2fit.png>
+Package pdftex.def Info: FilCo2fit.png used on input line 468.
+(pdftex.def)             Requested size: 158.99156pt x 119.24255pt.
+
+<FilNa1fit.png, id=121, 578.16pt x 433.62pt>
+File: FilNa1fit.png Graphic file (type png)
+ <use FilNa1fit.png>
+Package pdftex.def Info: FilNa1fit.png used on input line 476.
+(pdftex.def)             Requested size: 158.99156pt x 119.24255pt.
+
+<FilNa2fit.png, id=122, 578.16pt x 433.62pt>
+File: FilNa2fit.png Graphic file (type png)
+ <use FilNa2fit.png>
+Package pdftex.def Info: FilNa2fit.png used on input line 481.
+(pdftex.def)             Requested size: 158.99156pt x 119.24255pt.
+
+<FilRa1fit.png, id=123, 578.16pt x 433.62pt>
+File: FilRa1fit.png Graphic file (type png)
+ <use FilRa1fit.png>
+Package pdftex.def Info: FilRa1fit.png used on input line 489.
+(pdftex.def)             Requested size: 158.99156pt x 119.24255pt.
+
+<FilRa4fit.png, id=124, 578.16pt x 433.62pt>
+File: FilRa4fit.png Graphic file (type png)
+ <use FilRa4fit.png>
+Package pdftex.def Info: FilRa4fit.png used on input line 494.
+(pdftex.def)             Requested size: 158.99156pt x 119.24255pt.
+ [16 <./2UVRa4fit.png> <./FilCo1fit.png> <./FilCo2fit.png> <./FilNa1fit.png> <.
+/FilNa2fit.png>] <SBAmBefit.png, id=133, 578.16pt x 433.62pt>
+File: SBAmBefit.png Graphic file (type png)
+ <use SBAmBefit.png>
+Package pdftex.def Info: SBAmBefit.png used on input line 505.
+(pdftex.def)             Requested size: 158.99156pt x 119.24255pt.
+
+<SBCsfit.png, id=134, 578.16pt x 433.62pt>
+File: SBCsfit.png Graphic file (type png)
+ <use SBCsfit.png>
+Package pdftex.def Info: SBCsfit.png used on input line 510.
+(pdftex.def)             Requested size: 158.99156pt x 119.24255pt.
+File: SBNa1fit.png Graphic file (type png)
+
+<use SBNa1fit.png>
+Package pdftex.def Info: SBNa1fit.png used on input line 531.
+(pdftex.def)             Requested size: 158.99156pt x 119.24255pt.
+ <SBNa2fit.png, id=135, 578.16pt x 433.62pt>
+File: SBNa2fit.png Graphic file (type png)
+
+<use SBNa2fit.png>
+Package pdftex.def Info: SBNa2fit.png used on input line 536.
+(pdftex.def)             Requested size: 158.99156pt x 119.24255pt.
+ <SBRa1fit.png, id=136, 578.16pt x 433.62pt>
+File: SBRa1fit.png Graphic file (type png)
+
+<use SBRa1fit.png>
+Package pdftex.def Info: SBRa1fit.png used on input line 544.
+(pdftex.def)             Requested size: 158.99156pt x 119.24255pt.
+ <SBRa4fit.png, id=137, 578.16pt x 433.62pt>
+File: SBRa4fit.png Graphic file (type png)
+
+<use SBRa4fit.png>
+Package pdftex.def Info: SBRa4fit.png used on input line 549.
+(pdftex.def)             Requested size: 158.99156pt x 119.24255pt.
+ [17 <./FilRa1fit.png> <./FilRa4fit.png> <./SBAmBefit.png> <./SBCsfit.png> <./S
+BNa2fit.png>] <UVQE.png, id=146, 578.16pt x 433.62pt>
+File: UVQE.png Graphic file (type png)
+
+<use UVQE.png>
+Package pdftex.def Info: UVQE.png used on input line 559.
+(pdftex.def)             Requested size: 158.99156pt x 119.24255pt.
+ <FilQE.png, id=147, 401.5pt x 282.05376pt>
+File: FilQE.png Graphic file (type png)
+ <use FilQE.png>
+Package pdftex.def Info: FilQE.png used on input line 564.
+(pdftex.def)             Requested size: 158.99156pt x 111.6919pt.
+
+<SBQE.png, id=148, 401.5pt x 282.05376pt>
+File: SBQE.png Graphic file (type png)
+ <use SBQE.png>
+Package pdftex.def Info: SBQE.png used on input line 571.
+(pdftex.def)             Requested size: 198.7425pt x 139.61919pt.
+ [18 <./SBQE.png> <./SBRa1fit.png> <./SBRa4fit.png> <./UVQE.png> <./FilQE.png>]
+ (./finalreport.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 3812 strings out of 493089
+ 58362 string characters out of 6134842
+ 223012 words of memory out of 5000000
+ 7225 multiletter control sequences out of 15000+600000
+ 7895 words of font info for 28 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 38i,11n,43p,1176b,348s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></u
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/loca
+l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/t
+exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
+xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texl
+ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on finalreport.pdf (18 pages, 1785563 bytes).
+PDF statistics:
+ 193 PDF objects out of 1000 (max. 8388607)
+ 75 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 216 words of extra memory for PDF output out of 10000 (max. 10000000)
+

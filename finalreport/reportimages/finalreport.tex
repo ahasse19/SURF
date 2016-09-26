@@ -1,0 +1,630 @@
+\documentclass{article}
+
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{lipsum}
+\usepackage[skip=8pt,font=scriptsize]{caption}
+\usepackage{subfig}
+\usepackage{float}
+\usepackage{fancyhdr}
+\usepackage[letterpaper, portrait, margin=1.5in]{geometry}
+
+\usepackage{dcolumn}
+\usepackage{bm}
+
+\setlength{\parindent}{4em}
+\setlength{\parskip}{0em}
+\renewcommand{\baselinestretch}{1.15}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{}
+\lhead{}
+\rfoot{Hasse Page \thepage}
+\renewcommand{\headrulewidth}{0pt}
+
+ 
+\begin{document}
+
+\preprint{AIP/123-QED}
+
+\title{Manuscript Title}
+\thanks{A footnote to the article title}%
+
+\author{Ann Author}
+ \altaffiliation[Also at ]{Physics Department, XYZ University.}%Lines break automatically or can be forced with \\
+\author{Second Author}%
+ \email{Second.Author@institution.edu}
+\affiliation{%
+ Authors' institution and/or address
+ This line break forced with \textbackslash\textbackslash
+}%
+
+\title{\large Measurement of the Quenching Factor for Barium Fluoride Crystals}
+\author{Ariel Hasse\thanks{California Institute of Technology}, Professor David Hitlin\thanks{California Institute of Technology}}
+\date{}
+%\author{Professor David Hitlin}
+%\author{California Institute of Technology}
+\maketitle
+
+
+\section{Abstract}
+The energy of particles can be determined by measuring the scintillation light emitted by crystals such as barium fluoride. As the particles travel through the inorganic scintillator, Birk’s Law describes the amount of light emitted for a given energy lost. The ratio of dispersed energy is dependent on the mass of the particle; this is known as the quenching factor. Barium fluoride has two mechanisms of scintillation, a fast and a slow component, which are at different wavelengths, that determine how quickly photons are emitted. The ratios of energy from the fast and slow components from multiple photomultiplier tubes with varying quantum efficiency as a function of wavelength, determine the final quenching factor. We find that the quenching factors of the fast and slow components are substantially different.
+We measure the response of the barium fluoride crystal fast and slow components to alpha particles of known energies coming from the decay of slight radium contamination in the crystals. Confirmation with the known values allows for analysis of energy readout from gamma, electron, and alpha particles. This data, along with the quenching factor, is valuable for many high-energy physics experiments in which inorganic scintillators are used to find the mass or energy of particles. We will also use the findings to study the physical mechanisms affecting the quenching factor.
+
+
+\section{Introduction}
+
+Scintillation is light emitted by a material that absorbs deposited energy from particles. In the case of inorganic scintillators, electrons in crystals are excited from the valance band, the lowest energy state, to the conductance band or the exciton band. When electrons excite above ground state they leave a gap in the energy level. This gap, known as a hole, forms a pair with the electron and the couple traverses through the scintillator until an impurity in the crystal captures the instability. The impurities in scintillators have electronic levels amid the gap between the valence and exciton bands. Once the electron-hole pair is captured, the impurity de-excites by emitting scintillation. If the initial electron is elevated to the exciton band the resulting light is from the fast component. Conversely if the initial electron is elevated to the conductive band the resulting light is from the slow component. The electrons in the conductive band reach a phenomenon known as a metastable state, when the atomic system does not immediately decay to ground state, creating slower scintillation light resulting in the slow component (Leo, 1994). 
+
+The energy from scintillation light is measured using photodetectors. The amount of scintillation is linearly proportional to the energy deposited and the slope of the line correlates to particles' mass and energy. This relationship is used in high-energy particle physic experiments, like those at Fermi Lab, to detect and differentiate new particles. This system is referred to as the calorimeter and is made of crystals with adjacent photodetectors (Bartosvek, 2014). 
+
+Barium Fluoride ($BaF_2$) crystals, a type of inorganic scintillator, are of particular interest due to their exceptional fast component. For $BaF_2$ crystals the fast component is .6 nanoseconds (ns) and the slow component is 540 ns. $BaF_2$'s fast component emits light more quickly than any other scintillator of its kind ($BaF_2$, 2014). A short decay mechanism provides more precision, measured as $\sqrt{\tau}$ where $\tau$ is the scintillation time, and allows for close successive events to be detected. In order to benefit from the short decay time the light from the fast component must be separated from the slow component. This relationship can be described by the non-linear energy loss through the lattice, known as Birk's constant or the quenching factor ($\alpha_Q$). 
+
+Birk's Law describes how light is lost as a function of energy lost  
+
+\noindent
+$ dL/dx = S * (dE/dx)/(1 + \alpha_Q * (dE/dx)) $
+
+where L is the amount of light detected, E is the energy of the particle, and S is a constant specific to the crystal (Matulewicz, 1967). The quenching factor is linearly dependent on energy and is different for the fast and slow component. We assume the relationship is in the form of 
+
+\noindent
+$\alpha_Q = E_f * \alpha_f + E_s * \alpha_s$ 
+
+where $E_f$ and $E_s$ are the proportions of fast and slow scintillation, respectively, and $\alpha_f$ and $\alpha_s$ are the quenching factors for the fast and slow component. $\alpha_Q$ is found for a specific sensor and energy deposition and $E_f + E_s = 1$ is determined from the convolution of the Barium Fluoride Emission spectrum and the quantum efficiency (QE)of the photodetector. Birk's constant is affected non-linearly by the mass and linearly by the energy of a particle. Despite scintillators' supposed linear relationship between energy deposited and light emitted, as particles increase in mass the quenching factor increases. 
+
+The quenching factors for the fast and slow components are determined as a function of deposition energy using at least two photosensors. The expected linearity, calibration factor, can be determined using low mass decays such as gamma or electron sources with known kilo-electron-volt (keV) values. The calibration is the slope of known energy versus the measured energy from the sensor. Birk's constant, as a function of deposited energy, is determined from the measured scintillation of heavier particles, which are affected by non-linear energy loss, as a quotient of the known energy and the expected energy after the calibration factor is applied. 
+
+\noindent
+$ \alpha_Q = (Known Energy in keV) / (Recorded Energy * Calibration Factor) $ 
+
+This is repeated for each sensor at each energy level and 
+
+\noindent
+$\alpha_Q = E_f * \alpha_f + E_s * \alpha_s$ is plotted $\alpha_f$ versus $\alpha_s$ 
+
+for each detector. The point of best intersection represents the quenching factor for the slow and fast component. Replacing the $\alpha_f$ with the total $\alpha_Q$ in Birk's Law then determines the scintillation from the fast component at a given energy. 
+
+In our research we determined Birk's constant for the fast and slow component of $BaF_2$ for alpha particles at energies 4.8, 5.5, 6.0, and 7.7 MeV. We found $\alpha_Q, E_f,$ and $E_s$ for three photosensors, in our case Photomultiplier Tubes (PMTs). $\alpha_Q$ was determined with low mass particles from four radioactive sources and $E_f + E_s = 1$ was determined from integrating under the curve of the QE and $BaF_2$ emission spectrum convolution. 
+
+The collected data and the subsequent analysis yield 
+
+\noindent
+$\alpha_s = -0.1398072 * Energy + 4.13497323$ and $\alpha_f = -0.45007859 * Energy + 11.23363402$ 
+
+with errors of 
+
+\noindent
+$\sigma_s = [1.36287, 1.31089, 1.2333, 1.10977]$ and $\sigma_f = [0.0290772, 0.0310162, 0.0319127, 0.0313639]$. 
+
+These functions can be used in future high-energy physic experiments to isolate the fast component in $BaF_2$ for more precise detection of particles. 
+
+
+\section{Method}
+
+The following section describes the method for the two main processes of our research: data collection and analysis. Experimentally we find the center of each energy peak, from each source, for three PMTs. In the analysis process we find the calibration factors and the quenching factors using our measurements and manufacturer specifications. 
+
+\subsection{Laboratory Equipment and Configuration}
+
+The final experiment used three Photomultiplier Tubes; ultraviolet extended full spectrum, solarblind, and ultraviolet extended full spectrum with a shortpass filter. For both PMTs and the filter the manufacturer has provided the light intensity as a function of photon wavelength. We also used five radioactive sources. Four of the sources were low mass decays, electron or gamma; AmericiumBeryllium 241 (AmBe 241), Cesium 137 (Cs 137), Cobalt 60 (Co 60), and Sodium 22 (Na 22). Na 22 and Co 60 have particle decays at two keV values, which provided six points for calibration [Figure 1]. The fifth source is alpha decay from natural Radium 226 impurities in the $BaF_2$ crystal, which decay at four energies (Polischuk, 2009). The crystal used in each experiment remained the same. It had previously been found to have a relatively high concentration of impurities allowing for a higher rate of decay. 
+
+\begin{figure}
+  \centering
+    \includegraphics[width=0.5\textwidth]{knownkev.png}
+  \caption{Table for each source used and its corresponding keV value}
+  \label{fig:workflowedge}
+\end{figure} 
+
+In addition to our variables we used several pieces of equipment. The data compiler, caen, provides a clear user interface and was designed for physics problems of this kind (citation). A voltage box operating up to 5000 volts supplied the power for the PMTs. We also used an arduino circuit board and two A2302 temperature probes to collect the temperature in the laboratory while tests were active. Lastly the PMT, crystal, and source were in a light sealed box with cable panels to connect equipment inside and outside [Figure 2]. 
+
+\begin{figure}
+  \centering
+    \includegraphics[width=0.5\textwidth]{schem.png}
+  \caption{Equipment schematic for experiments}
+  \label{fig:workflowedge}
+\end{figure} 
+
+
+\subsection{Experimental Procedure}
+
+Before recording any sources, the PMT must be supplied the desired voltage for 12 hours. As the PMT warms up the quantum efficiency is altered and after due time, 12 hours in our case, the PMT's temperature stabilizes. The arduino probe's temperature record was also launched to ensure the PMT was not affected from external heat fluctuations. 
+
+For a given PMT the voltage and settings on the caen data compiler remain the same. Depending on the quantum efficiency of the PMT we set the voltage to maximize the gain and minimize background noise (Photomultiplier Tubes, 2007). The threshold, bin size, and gate length were also set. Raising the threshold diminishes background noise, but can also diminish noise from the source. The bin size sets a relative scale for the energy counts and takes into account the dispersion of source peaks so the highest source is not above the recorded channel. The gate length is in ns and regulates the amount of light detected for each collection point; it can also be used to lower the portion of the slow component seen (Electronic Instrumentation, 2013). 
+
+\subsubsection{Evaluating a PMT}
+
+To begin collection with a PMT the lens and crystal are both decontaminated. The crystal is then wrapped on five of the faces with a shielding material to channel all of the scintillation into the PMT. The open face of the crystal is secured onto the PMT with grease and then the PMT and crystal are placed in the light sealed box and connected with coaxial cables to the voltage supply and caen. After the PMT has been left on for at least 12 hours the sources can be evaluated. Following standard radiation safety procedure we then place a source in the light sealed box within a couple inches of the crystal to increase interactions. Once the parameters are adequately set, the energy histogram is recorded. When the caen has enough counts in each bin to show an energy peak in the histogram with the desired resolution, data is saved, and we repeat the process with the three other sources and then the crystal alone for Ra 226. 
+
+Each source varies in rate of decay and each PMT varies in the amount of light it can detect. Tests varied widely in recording length due to variations in QE and rate of decay. In order to complete a trial the energy peaks had to be visible above the background noise and have a reasonable resolution. The initial histogram shows the number of counts at each energy level. In the data analysis each energy peak will be isolated and the position recorded as the channel value for that specific set-up [Figure 3]. 
+
+\begin{figure}
+  \centering
+    \includegraphics[width=0.5\textwidth]{na.png}
+  \caption{Example of caen energy histogram; Na 22 Solarblind PMT}
+  \label{fig:workflowedge}
+\end{figure} 
+
+
+\subsection{Data Analysis}
+
+Before beginning data collection we created unique python scripts to analyze our anticipated data. The first program extracts the histogram for each source from a text file and fits the energy peaks with a Gaussian. The Gaussian fit produces the central peak location in channels for each energy level. Then the known decay values for each source are used to find the conversion from channels to keV. The calibration factor is the slope of the line of best fit between each point. The conversion for each Ra 226 peak produces the expected keV value from channels in the following manner: 
+
+\noindent
+$ Expected Energy in keV = (Recorded Energy * 1/(conversion)) $. 
+
+This is then compared to the known Ra 226 decays in keV to find the quenching factor. We repeated this process for each PMT and recorded the quenching factors. 
+
+\noindent
+$ \alpha_Q = (Known Energy in keV) / (Recorded Energy * Calibration Factor) $ 
+
+The second program is also repeated for each PMT. The script convolves the QE specifications from each PMT manufacturer and the emission spectrum for Barium Fluoride, which produces a four Gaussian representation of the fast and slow component proportions. The proportion of the area from each component produces $E_s$ and $E_f$. 
+
+Lastly a final script requires the input of the quenching factor and PMT with $BaF_2$ convolutions as global lists. The subsequent functions then produce four energy plots of $\alpha_Q = E_f * \alpha_f + E_s * \alpha_s$ where $\alpha_Q$ uses data from each PMT. The closest intersection of the line represents ($\alpha_s, \alpha_f$), the final quenching factors. To find these points we created a Mathematica script and solved the minimized cost function analytically. From this process the covariance matrix can be formed to determine the errors on each value. The four ($\alpha_s, \alpha_f$) and their respective ($\sigma_s, \sigma_f$) are then imported back to the python script to plot each fast and slow value against the corresponding energies for the final quenching factors as a function of energy in MeV. 
+\section{Results}
+We determined $\alpha_Q, E_f,$ and $E_s$ for each PMT. $\alpha_f$ and $\alpha_s$ at the four Ra 226 energy peak values, 4.8, 5.5, 6.0, and 7.7 MeV. The fast and slow proportion was also found for each PMT. For each PMT we fit every source with a Gaussian function [Figures 5 and 6], which yielded the following parameter fits [Figure 7]. Missing data is from trials that did not produce resolved energy peaks to fit a Gaussian. Each PMT still has enough peak values to complete the analysis. 
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.4\textwidth}
+    \includegraphics[width=\textwidth]{FilCsfit.png}
+    \caption{An Example of a Gaussian Fit; Cs 137 UV with filter PMT}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.4\textwidth}
+    \includegraphics[width=\textwidth]{2UVRa1fit.png}
+    \caption{An Example of a Gaussian Fit; Ra 226 UV PMT}
+  \end{minipage}
+\end{figure}
+
+\begin{figure}
+  \centering
+    \includegraphics[width=0.5\textwidth]{SBNa1fit.png}
+  \caption{An Example of a Gaussian Fit; Na 22 First PeakSolarblind PMT}
+  \label{fig:workflowedge}
+\end{figure} 
+
+
+\begin{figure}
+  \centering
+    \includegraphics[width=0.5\textwidth]{gaussfits.png}
+  \caption{Table with the recorded gaussian fit parameters}
+  \label{fig:workflowedge}
+\end{figure} 
+
+\noindent
+Using the peak value and associated sigma, the keV to channels conversion [Figures 8 to 10] was determined for each PMT; UV with shortpass filter, UV, Solarblind = [6.33012509, 4.984, 12.0694256] 
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.4\textwidth}
+    \includegraphics[width=\textwidth]{chanf.png}
+    \caption{UV with filter Calibration Function}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.4\textwidth}
+    \includegraphics[width=\textwidth]{chanuv.png}
+    \caption{UV Calibration Function}
+  \end{minipage}
+\end{figure}
+
+\begin{figure}
+  \centering
+    \includegraphics[width=0.5\textwidth]{chansb.png}
+  \caption{Solarblind Calibration Function}
+  \label{fig:workflowedge}
+\end{figure} 
+
+
+The inverse slope of the best fit line multiplied by the Ra 226 peak channel values yielded the expected energy in keV, which then determined the quenching factors $\alpha_Q$ [Figures 11 to 13]. 
+
+\setlength{\parskip}{2em}
+\noindent
+Quenching Factor UV with filter = [2.9762807168446512, 2.8493222446691253, 2.7046015279015254, 2.459904200468519]
+\noindent
+Quenching Factor UV = [3.269623267619078, 3.1364744649952887, 2.9771822748456365, 2.702319438114875]
+\noindent
+Quenching Factor Solarblind = [5.155991131280197, 4.789453699584773, 4.475792970019146, 4.166273337999092]
+
+\begin{figure}
+  \centering
+    \includegraphics[width=0.5\textwidth]{FitsBaF2.png}
+  \caption{Barium Fluoride emission spectrum}
+  \label{fig:workflowedge}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.4\textwidth}
+    \includegraphics[width=\textwidth]{qff.png}
+    \caption{UV with filter Quenching Factors}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.4\textwidth}
+    \includegraphics[width=\textwidth]{qfuv.png}
+    \caption{UV Quenching Factors}
+  \end{minipage}
+\end{figure}
+ 
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.4\textwidth}
+    \includegraphics[width=\textwidth]{qfsb.png}
+    \caption{Solarblind Quenching Factors}
+  \end{minipage}
+\end{figure}
+
+
+The emission spectrum of Barium Fluoride was plotted and fitted with four Gaussians. Using this fit we convolved each QE spectrum [Figure 14] to find $E_f$ and $E_s$ [Figures 15 to 17].
+
+\setlength{\parskip}{2em}
+\noindent
+Fast and Slow Proportions UV with filter = (0.10416262087647044, 0.8958373791235295)
+\noindent
+Fast and Slow Proportions UV = (0.11286243062670365, 0.8871375693732964)
+\noindent
+Fast and Slow Proportions Solarblind = (0.5585223540278348, 0.4414776459721652)
+
+
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.4\textwidth}
+    \includegraphics[width=\textwidth]{convf.png}
+    \caption{UV with filter Convolution}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.4\textwidth}
+    \includegraphics[width=\textwidth]{convuv.png}
+    \caption{UV Convolution}
+  \end{minipage}
+\end{figure}
+
+\begin{figure}
+  \centering
+    \includegraphics[width=0.5\textwidth]{convsb.png}
+  \caption{Solarblind Convolution}
+  \label{fig:workflowedge}
+\end{figure}
+
+\noindent
+We plotted our determined values in this form for every Ra 226 peak [Figures 18 to 21]
+
+\noindent
+$\alpha_Q = E_f * \alpha_f + E_s * \alpha_s$.
+
+Solving for the point of best intersection, ($\alpha_s, \alpha_f$), at each energy level the quenching factor as a function of energy was found to be 
+
+\noindent
+$\alpha_s = -0.1398072 * Energy + 4.13497323$ and $\alpha_f = -0.45007859 * Energy + 11.23363402$ 
+
+\noindent
+with errors of 
+\noindent
+$\sigma_s = [1.36287, 1.31089, 1.2333, 1.10977]$ and 
+
+\noindent
+$\sigma_f = [0.0290772, 0.0310162, 0.0319127, 0.0313639]$. 
+
+\noindent
+Figure 22 shows Birk's constant as a function of energy for the fast and slow component for alpha particle interactions with Barium Fluoride crystals.
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.4\textwidth}
+    \includegraphics[width=\textwidth]{first.png}
+    \caption{4800 Slow versus Fast Componets}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.4\textwidth}
+    \includegraphics[width=\textwidth]{second.png}
+    \caption{5500 Slow versus Fast Componets}
+  \end{minipage}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.4\textwidth}
+    \includegraphics[width=\textwidth]{third.png}
+    \caption{6000 Slow versus Fast Componets}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.4\textwidth}
+    \includegraphics[width=\textwidth]{fourth.png}
+    \caption{7700 Slow versus Fast Componets}
+  \end{minipage}
+\end{figure}
+
+\begin{figure}
+  \centering
+    \includegraphics[width=0.5\textwidth]{qf.png}
+  \caption{Final Quenching Factor Function}
+  \label{fig:workflowedge}
+\end{figure} 
+
+
+\section{Discussion}
+
+The separation of light from the fast and slow components for $BaF_2$ can be determined for any alpha particle from the measured slow and fast quenching factors. The total light from the fast component is found by solving Birk's Law to be a function of the integral of energy lost per distance (citation). 
+
+\noindent
+$ dL/dx = S * (dE/dx)/(1 + \alpha_Q * (dE/dx)) $
+
+The total energy is also determined using the above analysis. The integral of $dE/dx$ is the total energy from the particle which is already known. By replacing general $\alpha_Q$ with $\alpha_f$ for the particles energy the light yield can be determined. 
+
+In high energy physics experiments collaborators are trying to determine the energy or mass of a particle. Instead $dL/dx$ is known from the calorimeter. For experiments of this nature, our measured Birk's constants will allow for precision in alpha particle discoveries using Barium Fluoride. 
+
+
+
+\section{Acknowledgements}
+
+The California Institute of Technology and its Student Faculty Programs office made the measurement of the quenching factor for barium fluoride crystals possible. A. Hasse would also like to express her deep gratitude towards Professor David Hitlin, Jake Kim, and Jason Trevor and the High Energy Physics group for this opportunity and their continuing support. 
+
+
+\setlength{\parskip}{2em}
+\noindent
+\section{Bibliography}
+
+
+\noindent
+$BaF_2$ Barium Fluoride Scintillation Material, 2014. Saint Gobain Ceramics and Plastics Inc. 
+
+\noindent
+Bartosvek, L., et. al., October 2014. Mu2e Technical Design Report. Fermi National Accelerator Laboratory. Project Overview; pages 2-1 and 2-15 to 2-18, Muon to Electron Conversion; pages 3-1 to 3-3, Calorimeter; pages 9-1 to 9-39.
+
+\noindent
+Birks, J.B. (1964). The Theory and Practice of Scintillation Counting. London:
+Pergamon. 
+
+\noindent
+Electronic Instrumentation DPSD Register Description, 2013. CAEN SpA.
+
+\noindent
+L'Annunziata, M., 2003. Handbook of Radioactivity Analysis. Chemical Reviews: 404
+
+\noindent
+Leo, W. R., 1994. Techniques for Nuclear and particle Physics Experiments (2nd ed.). Springer. 
+
+\noindent
+Matulewicz, T., 1967. Quenching of Scintillation in $BaF_2$ for Light Charged Particles. 14021 Caen Cedex, France. 
+
+\noindent
+Photomultiplier Tubes, Basics, and Applications, 2007. Hamamatsu
+
+\noindent
+Polischuk, O., Belli, P., Bernabei, R., Capella, F., Caracciolo, V., Cerulli, R., . . . Tretyak, V. (2009). Radioactive contamination of BaF2 crystal scintillator. Nuclear Institute.
+
+
+\section{Appendices}
+
+\subsection{Gaussian Fits}
+
+The next three sections show all of the Gaussian fits for each PMT. 
+
+\subsubsection{UV Extended Full Spectrum}
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.4\textwidth}
+    \includegraphics[width=\textwidth]{2UVAmBefit.png}
+    \caption{AmBe 241 UV PMT}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.4\textwidth}
+    \includegraphics[width=\textwidth]{2UVCsfit.png}
+    \caption{Cs 137 UV PMT}
+  \end{minipage}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.4\textwidth}
+    \includegraphics[width=\textwidth]{2UVCo1fit.png}
+    \caption{Co 60 Peak 1 UV PMT}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.4\textwidth}
+    \includegraphics[width=\textwidth]{2UVCo2fit.png}
+    \caption{Co 60 Peak 2 UV PMT}
+  \end{minipage}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.4\textwidth}
+    \includegraphics[width=\textwidth]{2UVNa1fit.png}
+    \caption{Na 22 Peak 1 UV PMT}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.4\textwidth}
+    \includegraphics[width=\textwidth]{2UVNa2fit.png}
+    \caption{Na 22 Peak 2 UV PMT}
+  \end{minipage}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.4\textwidth}
+    \includegraphics[width=\textwidth]{2UVRa1fit.png}
+    \caption{Ra 226 First Three Peaks UV PMT}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.4\textwidth}
+    \includegraphics[width=\textwidth]{2UVRa4fit.png}
+    \caption{Ra 226 Fourth Peak UV PMT}
+  \end{minipage}
+\end{figure}
+
+\subsubsection{UV Extended Full Spectrum with Shortpass Filter}
+
+%\begin{figure}[H]
+%  \centering
+%  \begin{minipage}[b]{0.4\textwidth}
+%    \includegraphics[width=\textwidth]{FilAmBefit.png}
+%    \caption{AmBe 241 Filter PMT}
+%  \end{minipage}
+%  \hfill
+%  \begin{minipage}[b]{0.4\textwidth}
+%    \includegraphics[width=\textwidth]{FilCsfit.png}
+%    \caption{Cs 137 Filter PMT}
+%  \end{minipage}
+%\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.4\textwidth}
+    \includegraphics[width=\textwidth]{FilCo1fit.png}
+    \caption{Co 60 Peak 1 Filter PMT}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.4\textwidth}
+    \includegraphics[width=\textwidth]{FilCo2fit.png}
+    \caption{Co 60 Peak 2 Filter PMT}
+  \end{minipage}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.4\textwidth}
+    \includegraphics[width=\textwidth]{FilNa1fit.png}
+    \caption{Na 22 Peak 1 Filter PMT}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.4\textwidth}
+    \includegraphics[width=\textwidth]{FilNa2fit.png}
+    \caption{Na 22 Peak 2 Filter PMT}
+  \end{minipage}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.4\textwidth}
+    \includegraphics[width=\textwidth]{FilRa1fit.png}
+    \caption{Ra 226 First Three Peaks Filter PMT}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.4\textwidth}
+    \includegraphics[width=\textwidth]{FilRa4fit.png}
+    \caption{Ra 226 Fourth Peak Filter PMT}
+  \end{minipage}
+\end{figure}
+
+\subsubsection{Solarblind}
+
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.4\textwidth}
+    \includegraphics[width=\textwidth]{SBAmBefit.png}
+    \caption{AmBe 241 Solarblind PMT}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.4\textwidth}
+    \includegraphics[width=\textwidth]{SBCsfit.png}
+    \caption{Cs 137 Solarblind PMT}
+  \end{minipage}
+\end{figure}
+
+%\begin{figure}[H]
+%  \centering
+%  \begin{minipage}[b]{0.4\textwidth}
+%    \includegraphics[width=\textwidth]{SBCo1fit.png}
+%    \caption{Co 60 Peak 1 Solarblind PMT}
+%  \end{minipage}
+%  \hfill
+% \begin{minipage}[b]{0.4\textwidth}
+%    \includegraphics[width=\textwidth]{SBCo2fit.png}
+%    \caption{Co 60 Peak 2 Solarblind PMT}
+%  \end{minipage}
+%\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.4\textwidth}
+    \includegraphics[width=\textwidth]{SBNa1fit.png}
+    \caption{Na 22 Peak 1 Solarblind PMT}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.4\textwidth}
+    \includegraphics[width=\textwidth]{SBNa2fit.png}
+    \caption{Na 22 Peak 2 Solarblind PMT}
+  \end{minipage}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.4\textwidth}
+    \includegraphics[width=\textwidth]{SBRa1fit.png}
+    \caption{Ra 226 First Three Peaks Solarblind PMT}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.4\textwidth}
+    \includegraphics[width=\textwidth]{SBRa4fit.png}
+    \caption{Ra 226 Fourth Peak Solarblind PMT}
+  \end{minipage}
+\end{figure}
+
+\subsection{Quantum Efficiency Spectrum for Each Photomultiplier Tube}
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.4\textwidth}
+    \includegraphics[width=\textwidth]{UVQE.png}
+    \caption{UV Extended Full Spectrum PMT QE}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.4\textwidth}
+    \includegraphics[width=\textwidth]{FilQE.png}
+    \caption{UV Extended Full Spectrum with shortpass PMT QE}
+  \end{minipage}
+\end{figure}
+
+\begin{figure}
+  \centering
+    \includegraphics[width=0.5\textwidth]{SBQE.png}
+  \caption{Solarblind PMT QE}
+  \label{fig:workflowedge}
+\end{figure}
+
+%\subsection{Parameters for each Trial}
+
+%\begin{figure}
+ % \centering
+  %  \includegraphics[width=0.5\textwidth]{parameters.png}
+  %\caption{Parameters}
+  %\label{fig:workflowedge}
+%\end{figure}
+
+\end{document} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

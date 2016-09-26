@@ -1,0 +1,68 @@
+
+Author, Title, Publisher, Date, pages
+
+
+\noindent
+$BaF_2$ Barium Fluoride Scintillation Material, 2014. Saint Gobain Ceramics and Plastics Inc. 
+
+\noindent
+Bartosvek, L., et. al., October 2014. Mu2e Technical Design Report. Fermi National Accelerator Laboratory. Project Overview; pages 2-1 and 2-15 to 2-18, Muon to Electron Conversion; pages 3-1 to 3-3, Calorimeter; pages 9-1 to 9-39. 
+
+\noindent
+Electronic Instrumentation DPSD Register Description, 2013. CAEN SpA.
+
+\noindent
+L'Annunziata, M., 2003. Handbook of Radioactivity Analysis. 2003ent
+Leo, W. R., 1994. Techniques for Nuclear and particle Physics Experiments (2nd ed.). Springer. 
+
+\noindent
+Matulewicz, T., 1967. Quenching of Scintillation in $BaF_2$ for Light Charged Particles. 14021 Caen Cedex, France. 
+
+\noindent
+Photomultiplier Tubes, Basics, and Applications, 2007. Hamamatsu
+
+\noindent
+X
+
+\begin{thebibliography}{9}
+\bibitem{BaF2specs} 
+Saint Gobain Ceramics and Plastics Inc. 
+\textit{$BaF_2$ Barium Fluoride Scintillation Material}. 
+2014.
+ 
+\bibitem{Mu2e} 
+Bartosvek, L., et. al.
+\textit{Mu2e Technical Design Report}.
+Fermi National Accelerator Laboratory. Project Overview; pages 2-1 and 2-15 to 2-18, Muon to Electron Conversion; pages 3-1 to 3-3, Calorimeter; pages 9-1 to 9-39. October 2014
+ 
+\bibitem{caen} 
+CAEN SpA
+\textit{Electronic Instrumentation DPSD Register Description}
+\\\texttt{http://www-cs-faculty.stanford.edu/\~{}uno/abcde.html}
+2013
+
+\bibitem{scint} 
+L'Annunziata, M.
+\textit{Handbook of Radioactivity Analysis}.
+2003
+
+\bibitem{BaF2scint} 
+Matulewicz, T.
+\textit{Quenching of Scintillation in $BaF_2$ for Light Charged Particle}.
+14021 Caen Cedex, France. 1967.
+
+\bibitem{PMT} 
+Hamamatsu
+\textit{Photomultiplier Tubes, Basics, and Applications}.
+2007
+
+\bibitem{Ra226} 
+Polischuk, O., Belli, P., Bernabei, R., Capella, F., Caracciolo, V., Cerulli, R., . . . Tretyak, V.
+\textit{Radioactive contamination of BaF2 crystal scintillator}.
+Nuclear Institute. 2009
+
+
+
+
+
+

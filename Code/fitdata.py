@@ -288,23 +288,19 @@ c = -1600
 
 para = [a, b, c]
 
-hyp = [500, 14500, 1000, -.1, -.0001]
+poly = [-.000001, .2, -1600]
 
-threepeaks = [500, 11000, 600, 140, 14000, 1000, 100, 15800, 1100, 0, 0]
+hyp = [250, 20000, 2000, -.000001, -.0001]
 
-x1 = energy(alldata('RaSB2170.txt')[0], alldata('RaSB2170.txt')[1], 20000, 9000)[0]
-y1 = energy(alldata('RaSB2170.txt')[0], alldata('RaSB2170.txt')[1], 20000, 9000)[1]  
+threepeaks = [80, 10000, 1200, 80, 12000, 1200, 80, 14200, 1200, 0, 0]
+
+x1 = energy(alldata('RaFilter1350.txt')[0], alldata('RaFilter1350.txt')[1], 22000, 18000)[0]
+y1 = energy(alldata('RaFilter1350.txt')[0], alldata('RaFilter1350.txt')[1], 22000, 18000)[1]  
         
-rawdata(x1, y1, 'Ra 226 4800, 5500, and 6000 keV Peaks at 2170 Volts SB', 'Energy in Channels', 'Counts', 'Collected Data (Observed)')
-fitted = optimize(gaussRn, threepeaks)
-linefitgaussRn(fitted, x1, 'Ra 226 4800, 5500, and 6000 keV Peaks at 2170 Volts SB', 'Energy in Channels', 'Counts', 'Gaussian Fit to Data')
+rawdata(x1, y1, 'Ra 7700 keV Peak at 1350 Volts', 'Energy in Channels', 'Counts', 'Collected Data (Observed)')
+fitted = optimize(gauss, hyp)
+linefitgauss(fitted, x1, 'Ra 226 7700 keV Peak at 1350 Volts', 'Energy in Channels', 'Counts', 'Gaussian Fit to Data')
 print resolution(fitted)
 print fitted.x
-
-
-
-    
-    
-
 
     
